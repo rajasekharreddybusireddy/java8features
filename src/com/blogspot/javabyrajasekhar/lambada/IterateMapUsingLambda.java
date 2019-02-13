@@ -21,7 +21,8 @@ public class IterateMapUsingLambda {
         Set<Map.Entry<String, Integer>> keys = myhashMap.entrySet();
         Iterator<Map.Entry<String, Integer>> iterator = keys.iterator();
         while (iterator.hasNext()){
-            System.out.println(iterator.next());
+            Map.Entry<String, Integer> next = iterator.next();
+            System.out.println();
 
     }
         //old way
